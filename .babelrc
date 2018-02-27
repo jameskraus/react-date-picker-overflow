@@ -1,0 +1,16 @@
+{
+  "plugins": ["transform-class-properties", "transform-flow-strip-types"],
+  "presets": [
+    [
+      "env",
+      {
+        "modules": "commonjs",
+        "targets": {
+          "browsers": ["last 2 versions", "ie >= 11"]
+        }
+      }
+    ],
+    ["stage-2"],
+    ["react"]
+  ],
+}
