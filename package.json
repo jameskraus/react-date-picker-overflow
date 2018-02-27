@@ -4,8 +4,7 @@
   "description": "a repro repo for react-date-picker",
   "main": "src/index.js",
   "scripts": {
-    "build": "webpack --config webpack.dev.config.js",
-    "build:prod": "webpack --config webpack.prod.config.js",
+    "build": "webpack --config webpack.config.js",
     "cosmos": "cosmos",
     "cosmos:export": "cosmos-export",
     "lint": "eslint ./src/",
